@@ -19,7 +19,7 @@ $~$
 - Ted Underwood, 2017, [A Genealogy of Distant Reading](http://www.digitalhumanities.org/dhq/vol/11/2/000317/000317.html), *Digital Humanities Quarterly* 11(2).
 
 #### Notebook: Introduction to text manipulation in R
-- [Install](https://youtu.be/EmZqlcKkJMM) [R](https://r-project.org) and [RStudio](https://www.rstudio.com) on your machine. You may find [this video](https://www.youtube.com/watch?v=EmZqlcKkJMM) helpful.
+- Install [R](https://r-project.org) and [RStudio](https://www.rstudio.com) on your machine. You may find [this video](https://www.youtube.com/watch?v=EmZqlcKkJMM) helpful.
 - If you do not have previous experience with R. I recommend that you work through the following [videos](https://www.youtube.com/channel/UCeOVpKuuxX5sdOmGd7P9zzw/videos). These will walk you through sections 2.2 - 2.6 of [Humanities Data in R](https://link.springer.com/book/10.1007%2F978-3-319-20702-5), showing you how to work with R in the command line ([Part 1](https://youtu.be/e2fKTpqsi48)), RStudio console ([Part 2a](https://youtu.be/eMdD9FW1tos)), R scripts (Parts [2b](https://youtu.be/E149gT17nGk) and [3](https://youtu.be/5jrCpa2lRmo)), and R Markdown notebooks (Parts [4a](https://youtu.be/6fFO3za5mHQ), [4b](https://youtu.be/lI7v7iWgcwk), and [4c](https://youtu.be/Ej3wVsp1OqM)).
 
 $~$
@@ -42,9 +42,9 @@ $~$
 #### Read:
 - Stephen Ramsay, 2010, [The Hermeneutics of Screwing Around; or What You Do with a Million Books](http://www.leeannhunter.com/digital/wp-content/uploads/2014/08/RamsayBooks.pdf), *Playing with Technology in History Conference*.
 - Jo Guldi, 2015, [Time Wars of the Twentieth Century and the Twenty-First Century Toolkit](https://ieeexplore.ieee.org/document/7121198), pp. 253-265 in *Between Humanities and the Digital*.
-- Tara McPherson, 2015, [Post-Archive: The Humanities, the Archive, and the Database], pp. 483-502 in *Between Humanities and the Digital*.
+- Tara McPherson, 2015, [Post-Archive: The Humanities, the Archive, and the Database](https://ieeexplore.ieee.org/xpl/ebooks/bookPdfWithBanner.jsp?fileName=7121132.pdf&bkn=7120877&pdfType=chapter), pp. 483-502 in *Between Humanities and the Digital*.
 - Megan Ward and Adrian S. Wisnicki, 2019, [The Archive after Theory](https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/a8eccb81-e950-4760-ba93-38e0b1f2b9d0#ch18), Chapter 18 in Matthew K. Gold and Lauren F. Klein, eds., *Debates in the Digital Humanities* (Minneapolis: University of Minnesota Press).
-- Andrew Gomez, 2019, [The Making of the Digital Working Class: Social History, Digital Humanities, and its Sources], Chapter 33 in *Debates in the Digital Humanities*.
+- Andrew Gomez, 2019, [The Making of the Digital Working Class: Social History, Digital Humanities, and its Sources](https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/3788efb8-3471-4c45-9581-55b8a541364b#ch33), Chapter 33 in *Debates in the Digital Humanities*.
 
 #### Notebook: Word frequencies and n-grams, part 2
 
