@@ -1,0 +1,16 @@
+---
+title: "Policies"
+output: 
+  html_document:
+    toc: true    
+    toc_depth: 3
+    toc_float: true
+    theme: paper
+---
+### Communication
+I will hold **weekly office hours on Tuesdays at 12-1 and Thursdays at 3-4 in SSH 1252**. If these times do not work for you, please [schedule a meeting](http://ekmerchant.youcanbook.me) at another time. You may also [email me](mailto:ekmerchant@ucdavis.edu) to discuss any aspect of this course. Please put the course number in the subject line of the email. I will generally respond within one business day.
+
+### Academic Integrity
+As in all courses at UC Davis, you will be held to the University's [Code of Academic Conduct](http://sja.ucdavis.edu/files/cac.pdf), which prohibits all forms of academic misconduct, from outright cheating or plagiarism to inadequate citation. You must acknowledge this Code of Academic Conduct for each course in which you are registered on the [Academic Participation](http://participate.ucdavis.edu) website. All work that you submit for this class must be your own and must not have been submitted for a grade in any other class without prior approval from myself and the instructor of the other class. I will report all cases of suspected misconduct to the [Office of Student Support and Judicial Affairs](http://ossja.ucdavis.edu). Please do not hesitate to ask *in advance* if you are unsure whether something you plan to do violates the code.
+
+

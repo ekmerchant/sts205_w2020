@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title>Schedule</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 64px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h2 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h3 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h4 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h5 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h6 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">STS 205: Algorithmic Reading</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Description</a>
+</li>
+<li>
+  <a href="policies.html">Policies</a>
+</li>
+<li>
+  <a href="schedule.html">Schedule</a>
+</li>
+<li>
+  <a href="mailto:ekmerchant@ucdavis.edu">Email Prof. M</a>
+</li>
+<li>
+  <a href="https://ekmerchant.youcanbook.me/">Meet with Prof. M</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">Schedule</h1>
+
+</div>
+
+
+<p><span class="math inline">\(~\)</span></p>
+<div id="week-1-january-9" class="section level2">
+<h2>Week 1: January 9</h2>
+<div id="toward-critical-practice-transcending-the-quantitativequalitative-divide" class="section level3">
+<h3>Toward critical practice: Transcending the quantitative/qualitative divide</h3>
+<div id="read" class="section level4">
+<h4>Read:</h4>
+<ul>
+<li>Kenneth R. Howe, 1992, <a href="https://www.jstor.org/stable/1085569#metadata_info_tab_contents">Getting Over the Quantitative-Qualitative Debate</a>, <em>American Journal of Education</em> 100: 236-256.</li>
+<li>Todd Presner, 2015, <a href="https://ieeexplore.ieee.org/xpl/ebooks/bookPdfWithBanner.jsp?fileName=7121169.pdf&amp;bkn=7120877&amp;pdfType=chapter">Critical Theory and the Mangle of Digital Humanities</a>, pp. 55-67 in Patrik Svensson and David Theo Goldberg, eds., <em>Between Humanities and the Digital</em> (Cambridge: MIT Press).</li>
+<li>Barbara Herrnstein Smith, 2016, <a href="https://doi.org/10.1215/00265667-3630844">What was “Close Reading”? A Century of Method in Literary Studies</a>, <em>The Minnesota Review</em> 87: 57-75.</li>
+<li>Ted Underwood, 2017, <a href="http://www.digitalhumanities.org/dhq/vol/11/2/000317/000317.html">A Genealogy of Distant Reading</a>, <em>Digital Humanities Quarterly</em> 11(2).</li>
+</ul>
+</div>
+<div id="notebook-introduction-to-text-manipulation-in-r" class="section level4">
+<h4>Notebook: Introduction to text manipulation in R</h4>
+<ul>
+<li><a href="https://youtu.be/EmZqlcKkJMM">Install</a> <a href="https://r-project.org">R</a> and <a href="https://www.rstudio.com">RStudio</a> on your machine. You may find <a href="https://www.youtube.com/watch?v=EmZqlcKkJMM">this video</a> helpful.</li>
+<li>If you do not have previous experience with R. I recommend that you work through the following <a href="https://www.youtube.com/channel/UCeOVpKuuxX5sdOmGd7P9zzw/videos">videos</a>. These will walk you through sections 2.2 - 2.6 of <a href="https://link.springer.com/book/10.1007%2F978-3-319-20702-5">Humanities Data in R</a>, showing you how to work with R in the command line (<a href="https://youtu.be/e2fKTpqsi48">Part 1</a>), RStudio console (<a href="https://youtu.be/eMdD9FW1tos">Part 2a</a>), R scripts (Parts <a href="https://youtu.be/E149gT17nGk">2b</a> and <a href="https://youtu.be/5jrCpa2lRmo">3</a>), and R Markdown notebooks (Parts <a href="https://youtu.be/6fFO3za5mHQ">4a</a>, <a href="https://youtu.be/lI7v7iWgcwk">4b</a>, and <a href="https://youtu.be/Ej3wVsp1OqM">4c</a>).</li>
+</ul>
+<p><span class="math inline">\(~\)</span></p>
+</div>
+</div>
+</div>
+<div id="week-2-january-16" class="section level2">
+<h2>Week 2: January 16</h2>
+<div id="why-we-code" class="section level3">
+<h3>Why we code</h3>
+<div id="read-1" class="section level4">
+<h4>Read:</h4>
+<ul>
+<li>Miriam Posner, 2012, <a href="http://miriamposner.com/blog/some-things-to-think-about-before-you-exhort-everyone-to-code/">Some things to think about before you exhort everyone to code</a>, <em>Miriam Posner’s Blog</em>, February 29.</li>
+<li>Nick Montfort, 2016, Exploratory Programming in Digital Humanities Pedagogy and Research, Chapter 7 in Susan Schreibman, Ray Siemens, and John Unsworth, eds., <a href="https://ebookcentral.proquest.com/lib/ucdavis/detail.action?docID=4093339">A New Companion to Digital Humanities</a> (New York: Wiley).</li>
+<li>Phillip R. Polefrone, John Simpson, and Dennis Yi Tenen, 2016, <a href="https://academiccommons.columbia.edu/doi/10.7916/D8T445R9/download">Critical Computing in the Humanities</a>, pp. 85-103 in Constance Crompton, Richard J. Lane, and Ray Siemens, eds., <em>Doing Digital Humanities: Practice, Training, Research</em> (New York: Routledge).</li>
+<li>Mark C. Marino, 2016, <a href="https://dhdebates.gc.cuny.edu/read/untitled/section/879bc64b-93ba-4d9a-9678-9a7239fc41e4#ch13">Why We Must Read the Code: The Science Wars, Episode IV</a>, Chapter 13 in Matthew K. Gold and Lauren F. Klein, eds., <em>Debates in the Digital Humanities</em> (Minneapolis: University of Minnesota Press).</li>
+<li>Benjamin M. Schmidt, 2016, <a href="https://dhdebates.gc.cuny.edu/read/untitled/section/557c453b-4abb-48ce-8c38-a77e24d3f0bd#ch48">Do Digital Humanists Need to Understand Algorithms?</a> Chapter 48 in <em>Debates in the Digital Humanities</em>.</li>
+</ul>
+</div>
+<div id="notebook-word-frequencies-and-n-grams-part-1." class="section level4">
+<h4>Notebook: Word frequencies and n-grams, part 1.</h4>
+<p><span class="math inline">\(~\)</span></p>
+</div>
+</div>
+</div>
+<div id="week-3-january-23" class="section level2">
+<h2>Week 3: January 23</h2>
+<div id="scaling-the-digital-archive" class="section level3">
+<h3>Scaling the digital archive</h3>
+<div id="read-2" class="section level4">
+<h4>Read:</h4>
+<ul>
+<li>Stephen Ramsay, 2010, <a href="http://www.leeannhunter.com/digital/wp-content/uploads/2014/08/RamsayBooks.pdf">The Hermeneutics of Screwing Around; or What You Do with a Million Books</a>, <em>Playing with Technology in History Conference</em>.</li>
+<li>Jo Guldi, 2015, <a href="https://ieeexplore.ieee.org/document/7121198">Time Wars of the Twentieth Century and the Twenty-First Century Toolkit</a>, pp. 253-265 in <em>Between Humanities and the Digital</em>.</li>
+<li>Tara McPherson, 2015, [Post-Archive: The Humanities, the Archive, and the Database], pp. 483-502 in <em>Between Humanities and the Digital</em>.</li>
+<li>Megan Ward and Adrian S. Wisnicki, 2019, <a href="https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/a8eccb81-e950-4760-ba93-38e0b1f2b9d0#ch18">The Archive after Theory</a>, Chapter 18 in Matthew K. Gold and Lauren F. Klein, eds., <em>Debates in the Digital Humanities</em> (Minneapolis: University of Minnesota Press).</li>
+<li>Andrew Gomez, 2019, [The Making of the Digital Working Class: Social History, Digital Humanities, and its Sources], Chapter 33 in <em>Debates in the Digital Humanities</em>.</li>
+</ul>
+</div>
+<div id="notebook-word-frequencies-and-n-grams-part-2" class="section level4">
+<h4>Notebook: Word frequencies and n-grams, part 2</h4>
+<p><span class="math inline">\(~\)</span></p>
+</div>
+</div>
+</div>
+<div id="week-4-january-30" class="section level2">
+<h2>Week 4: January 30</h2>
+<div id="methodology-and-critique" class="section level3">
+<h3>Methodology and critique</h3>
+<div id="read-3" class="section level4">
+<h4>Read:</h4>
+<ul>
+<li>Daniel Allington, Sarah Brouillette, and David Golumbia, 2016, <a href="https://lareviewofbooks.org/article/neoliberal-tools-archives-political-history-digital-humanities/">Neoliberal Tools (and Archives): A Political History of Digital Humanities</a>, <em>Los Angeles Review of Books</em>, May 1.</li>
+<li>James Dobson, 2019 <a href="https://www.jstor.org/stable/10.5406/j.ctvfjd0mf">Critical Digital Humanities: The Search for a Methodology</a> (Urbana: University of Illinois Press).</li>
+</ul>
+</div>
+<div id="notebook-sentiment-analysis" class="section level4">
+<h4>Notebook: Sentiment analysis</h4>
+<p><span class="math inline">\(~\)</span></p>
+</div>
+</div>
+</div>
+<div id="week-5-february-6" class="section level2">
+<h2>Week 5: February 6</h2>
+<div id="clustering-and-classification" class="section level3">
+<h3>Clustering and classification</h3>
+<div id="read-4" class="section level4">
+<h4>Read:</h4>
+<ul>
+<li>David Bamman, Jacob Eisenstein, and Tyler Schnoebelen, 2014, <a href="https://onlinelibrary.wiley.com/doi/epdf/10.1111/josl.12080">Gender Identity and Lexical Variation in Social Media</a>, <em>Journal of Sociolinguistics</em> 18: 135-160.</li>
+<li>Matthew L. Jockers and Ted Underwood, 2016, Text-Mining the Humanities, Chapter 20 in <a href="https://ebookcentral.proquest.com/lib/ucdavis/detail.action?docID=4093339">A New Companion to Digital Humanities</a>.</li>
+<li>Lisa Marie Rhody, 2016, <a href="https://dhdebates.gc.cuny.edu/read/untitled/section/508c8664-15c8-4262-a72a-e49299873d11#ch46">Why I Dig: Feminist Approaches to Text Analysis</a>, Chapter 46 in <em>Debates in the Digital Humanities</em>.</li>
+</ul>
+</div>
+<div id="notebook-document-clustering" class="section level4">
+<h4>Notebook: Document clustering</h4>
+<p><span class="math inline">\(~\)</span></p>
+</div>
+</div>
+</div>
+<div id="week-6-february-13" class="section level2">
+<h2>Week 6: February 13</h2>
+<div id="digitizing-gender" class="section level3">
+<h3>Digitizing gender</h3>
+<div id="read-5" class="section level4">
+<h4>Read:</h4>
+<ul>
+<li>Ted Underwood and David Bamman, 2016, <a href="https://tedunderwood.com/2016/01/09/the-instability-of-gender/">The Instability of Gender</a>, <em>The Stone and the Shell</em>, January 9.</li>
+<li>Matthew Jockers and Gabi Kirilloff, 2016, <a href="http://culturalanalytics.org/2016/12/understanding-gender-and-character-agency-in-the-19th-century-novel/">Understanding Gender and Character Agency in the 19th Century Novel</a>, <em>Journal of Cultural Analytics</em>, December 1.<br />
+</li>
+<li>Ted Underwood, David Bamman, and Sabrina Lee, 2018, <a href="http://culturalanalytics.org/2018/02/the-transformation-of-gender-in-english-language-fiction/">The Transformation of Gender in English-Language Fiction</a>, <em>Journal of Cultural Analytics</em>, February 13.</li>
+<li>Laura Mandell, 2019, <a href="https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/5d9c1b63-7b60-42dd-8cda-bde837f638f4#ch01">Gender and Cultural Analytics: Finding or Making Stereotypes?</a>, Chapter 1, <em>Debates in the Digital Humanities</em>.</li>
+<li>Seth Long and James Baker, 2019, <a href="https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/72423b53-060d-4927-aa0b-36c90b03152c#ch17">The Elusive Digital/Critical Synthesis</a>, Chapter 17, <em>Debates in the Digital Humanities</em>.</li>
+</ul>
+</div>
+<div id="notebook-document-classification" class="section level4">
+<h4>Notebook: Document classification</h4>
+<p><span class="math inline">\(~\)</span></p>
+</div>
+</div>
+</div>
+<div id="week-7-february-20" class="section level2">
+<h2>Week 7: February 20</h2>
+<div id="topic-modeling" class="section level3">
+<h3>Topic modeling</h3>
+<div id="read-6" class="section level4">
+<h4>Read:</h4>
+<ul>
+<li>Megan R. Brett, 2012, <a href="http://journalofdigitalhumanities.org/2-1/topic-modeling-a-basic-introduction-by-megan-r-brett/">Topic Modeling: A Basic Introduction</a>, <em>Journal of Digital Humanities</em> 2(1).</li>
+<li>Kevin M. Quinn, Burt L. Monroe, Michael Colaresi, and Michael H. Crespin, 2010, <a href="https://doi.org/10.1111/j.1540-5907.2009.00427.x">How to Analyze Political Attention with Minimal Assumptions and Costs</a>, <em>American Journal of Political Science</em> 54: 209-228.</li>
+<li>Andrew Goldstone and Ted Underwood, 2014, <a href="https://muse.jhu.edu/article/558875">The Quiet Transformations of Literary Studies: What Thirteen Thousand Scholars Could Tell Us</a>, <em>New Literary History</em> 45: 359-384.</li>
+<li>Lisa Marie Rhody, 2015, <a href="http://www.lisarhody.com/the-story-of-stopwords/">The Story of Stopwords: Topic Modelin an Ekphrastic Tradition</a>, <em>lisarhody.com</em>, May 6.</li>
+<li>Jeffrey M. Binder, 2016, <a href="https://dhdebates.gc.cuny.edu/read/untitled/section/4b276a04-c110-4cba-b93d-4ded8fcfafc9#ch18">Alien Reading: Text Mining, Language Standardization, and the Humanities</a>, Chapter 18 in <em>Debates in the Digital Humanities</em>.</li>
+<li>Laura K. Nelson, 2017, <a href="https://journals.sagepub.com/doi/full/10.1177/0049124117729703">Computational Grounded Theory: A Methodological Framework</a>, <em>Sociological Methods and Research</em>, 2017.</li>
+</ul>
+</div>
+<div id="activity-topic-modeling-part-1" class="section level4">
+<h4>Activity: Topic modeling, part 1</h4>
+<p><span class="math inline">\(~\)</span></p>
+</div>
+</div>
+</div>
+<div id="week-8-feburary-27" class="section level2">
+<h2>Week 8: Feburary 27</h2>
+<div id="writing-and-visualizing" class="section level3">
+<h3>Writing and visualizing</h3>
+<div id="read-7" class="section level4">
+<h4>Read:</h4>
+<ul>
+<li>Lincoln Mullen, 2019, <a href="https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/e5496dc6-dcc1-42e7-8609-9377d05812c5#ch31">A Braided Narrative for Digital History</a>, Chapter 31 in <em>Debates in the Digital Humanities</em>.</li>
+<li>Kellen and Lincoln Mullen, <a href="https://doi.org/10.1093/ahr/123.1.132">The Spine of American Law: Digital Text Analysis and U.S. Legal Pracice</a>, <em>The American Historical Review</em> 123: 132-164.</li>
+<li>Ryan Cordell, 2015, <a href="https://muse.jhu.edu/article/590710">Reprinting, Circulation, and the Network author in Antebellum Newspapers</a>, <em>American Literary History</em> 27(3).</li>
+<li>David A. Smith, Ryan Cordell, and Abby Mullen, 2015, <a href="https://muse.jhu.edu/article/687864">Computational Methods for Uncovering Reprinted Texts in Antebellum Newspapers</a>, <em>American Literary History</em> 27(3).</li>
+<li>Johanna Drucker, 2016, Graphical Approaches to the Digital Humanities, pp. 290-302 in <a href="https://ebookcentral.proquest.com/lib/ucdavis/detail.action?docID=4093339">A New Companion to Digital Humanities</a>.</li>
+<li>Stefan Sinclair and Geoffrey Rockwell, 2016, Text Analysis and Visualization: Making Meaning Count, pp. 330-349 in <a href="https://ebookcentral.proquest.com/lib/ucdavis/detail.action?docID=4093339">A New Companion to Digital Humanities</a>.</li>
+</ul>
+</div>
+<div id="notebook-topic-modeling-part-2" class="section level4">
+<h4>Notebook: Topic modeling, part 2</h4>
+<p><span class="math inline">\(~\)</span></p>
+</div>
+</div>
+</div>
+<div id="week-9-march-5" class="section level2">
+<h2>Week 9: March 5</h2>
+<div id="no-class---work-on-your-projects" class="section level3">
+<h3>No class - work on your projects</h3>
+<p><span class="math inline">\(~\)</span></p>
+</div>
+</div>
+<div id="week-10-march-12" class="section level2">
+<h2>Week 10: March 12</h2>
+<div id="project-presentations" class="section level3">
+<h3>Project presentations</h3>
+<p><span class="math inline">\(~\)</span></p>
+</div>
+</div>
+<div id="final-project-due-316-5pm" class="section level2">
+<h2>Final project due 3/16, 5pm</h2>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

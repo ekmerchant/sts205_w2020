@@ -1,0 +1,125 @@
+---
+title: "Schedule"
+output: 
+  html_document:
+    toc: true    
+    toc_depth: 3
+    toc_float: true
+    theme: paper
+---
+
+$~$
+
+## Week 1: January 9
+### Toward critical practice: Transcending the quantitative/qualitative divide
+#### Read:
+- Kenneth R. Howe, 1992, [Getting Over the Quantitative-Qualitative Debate](https://www.jstor.org/stable/1085569#metadata_info_tab_contents), *American Journal of Education* 100: 236-256.
+- Todd Presner, 2015, [Critical Theory and the Mangle of Digital Humanities](https://ieeexplore.ieee.org/xpl/ebooks/bookPdfWithBanner.jsp?fileName=7121169.pdf&bkn=7120877&pdfType=chapter), pp. 55-67 in Patrik Svensson and David Theo Goldberg, eds., *Between Humanities and the Digital* (Cambridge: MIT Press).
+- Barbara Herrnstein Smith, 2016, [What was "Close Reading"? A Century of Method in Literary Studies](https://doi.org/10.1215/00265667-3630844), *The Minnesota Review* 87: 57-75.
+- Ted Underwood, 2017, [A Genealogy of Distant Reading](http://www.digitalhumanities.org/dhq/vol/11/2/000317/000317.html), *Digital Humanities Quarterly* 11(2).
+
+#### Notebook: Introduction to text manipulation in R
+- [Install](https://youtu.be/EmZqlcKkJMM) [R](https://r-project.org) and [RStudio](https://www.rstudio.com) on your machine. You may find [this video](https://www.youtube.com/watch?v=EmZqlcKkJMM) helpful.
+- If you do not have previous experience with R. I recommend that you work through the following [videos](https://www.youtube.com/channel/UCeOVpKuuxX5sdOmGd7P9zzw/videos). These will walk you through sections 2.2 - 2.6 of [Humanities Data in R](https://link.springer.com/book/10.1007%2F978-3-319-20702-5), showing you how to work with R in the command line ([Part 1](https://youtu.be/e2fKTpqsi48)), RStudio console ([Part 2a](https://youtu.be/eMdD9FW1tos)), R scripts (Parts [2b](https://youtu.be/E149gT17nGk) and [3](https://youtu.be/5jrCpa2lRmo)), and R Markdown notebooks (Parts [4a](https://youtu.be/6fFO3za5mHQ), [4b](https://youtu.be/lI7v7iWgcwk), and [4c](https://youtu.be/Ej3wVsp1OqM)).
+
+$~$
+
+## Week 2: January 16
+### Why we code
+#### Read:
+- Miriam Posner, 2012, [Some things to think about before you exhort everyone to code](http://miriamposner.com/blog/some-things-to-think-about-before-you-exhort-everyone-to-code/), *Miriam Posner's Blog*, February 29.
+- Nick Montfort, 2016, Exploratory Programming in Digital Humanities Pedagogy and Research, Chapter 7 in Susan Schreibman, Ray Siemens, and John Unsworth, eds., [A New Companion to Digital Humanities](https://ebookcentral.proquest.com/lib/ucdavis/detail.action?docID=4093339) (New York: Wiley).
+- Phillip R. Polefrone, John Simpson, and Dennis Yi Tenen, 2016, [Critical Computing in the Humanities](https://academiccommons.columbia.edu/doi/10.7916/D8T445R9/download), pp. 85-103 in Constance Crompton, Richard J. Lane, and Ray Siemens, eds., *Doing Digital Humanities: Practice, Training, Research* (New York: Routledge).
+- Mark C. Marino, 2016, [Why We Must Read the Code: The Science Wars, Episode IV](https://dhdebates.gc.cuny.edu/read/untitled/section/879bc64b-93ba-4d9a-9678-9a7239fc41e4#ch13), Chapter 13 in Matthew K. Gold and Lauren F. Klein, eds., *Debates in the Digital Humanities* (Minneapolis: University of Minnesota Press).
+- Benjamin M. Schmidt, 2016, [Do Digital Humanists Need to Understand Algorithms?](https://dhdebates.gc.cuny.edu/read/untitled/section/557c453b-4abb-48ce-8c38-a77e24d3f0bd#ch48) Chapter 48 in *Debates in the Digital Humanities*.
+
+#### Notebook: Word frequencies and n-grams, part 1.
+
+$~$
+
+## Week 3: January 23
+### Scaling the digital archive
+#### Read:
+- Stephen Ramsay, 2010, [The Hermeneutics of Screwing Around; or What You Do with a Million Books](http://www.leeannhunter.com/digital/wp-content/uploads/2014/08/RamsayBooks.pdf), *Playing with Technology in History Conference*.
+- Jo Guldi, 2015, [Time Wars of the Twentieth Century and the Twenty-First Century Toolkit](https://ieeexplore.ieee.org/document/7121198), pp. 253-265 in *Between Humanities and the Digital*.
+- Tara McPherson, 2015, [Post-Archive: The Humanities, the Archive, and the Database], pp. 483-502 in *Between Humanities and the Digital*.
+- Megan Ward and Adrian S. Wisnicki, 2019, [The Archive after Theory](https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/a8eccb81-e950-4760-ba93-38e0b1f2b9d0#ch18), Chapter 18 in Matthew K. Gold and Lauren F. Klein, eds., *Debates in the Digital Humanities* (Minneapolis: University of Minnesota Press).
+- Andrew Gomez, 2019, [The Making of the Digital Working Class: Social History, Digital Humanities, and its Sources], Chapter 33 in *Debates in the Digital Humanities*.
+
+#### Notebook: Word frequencies and n-grams, part 2
+
+$~$
+
+## Week 4: January 30
+### Methodology and critique
+#### Read: 
+- Daniel Allington, Sarah Brouillette, and David Golumbia, 2016, [Neoliberal Tools (and Archives): A Political History of Digital Humanities](https://lareviewofbooks.org/article/neoliberal-tools-archives-political-history-digital-humanities/), *Los Angeles Review of Books*, May 1.
+- James Dobson, 2019 [Critical Digital Humanities: The Search for a Methodology](https://www.jstor.org/stable/10.5406/j.ctvfjd0mf) (Urbana: University of Illinois Press).
+
+#### Notebook: Sentiment analysis
+
+$~$
+
+## Week 5: February 6
+### Clustering and classification
+#### Read:
+- David Bamman, Jacob Eisenstein, and Tyler Schnoebelen, 2014, [Gender Identity and Lexical Variation in Social Media](https://onlinelibrary.wiley.com/doi/epdf/10.1111/josl.12080), *Journal of Sociolinguistics* 18: 135-160.
+- Matthew L. Jockers and Ted Underwood, 2016, Text-Mining the Humanities, Chapter 20 in [A New Companion to Digital Humanities](https://ebookcentral.proquest.com/lib/ucdavis/detail.action?docID=4093339).
+- Lisa Marie Rhody, 2016, [Why I Dig: Feminist Approaches to Text Analysis](https://dhdebates.gc.cuny.edu/read/untitled/section/508c8664-15c8-4262-a72a-e49299873d11#ch46), Chapter 46 in *Debates in the Digital Humanities*.
+
+#### Notebook: Document clustering
+
+$~$
+
+## Week 6: February 13
+### Digitizing gender
+#### Read:
+- Ted Underwood and David Bamman, 2016, [The Instability of Gender](https://tedunderwood.com/2016/01/09/the-instability-of-gender/), *The Stone and the Shell*, January 9.
+- Matthew Jockers and Gabi Kirilloff, 2016, [Understanding Gender and Character Agency in the 19th Century Novel](http://culturalanalytics.org/2016/12/understanding-gender-and-character-agency-in-the-19th-century-novel/), *Journal of Cultural Analytics*, December 1.  
+- Ted Underwood, David Bamman, and Sabrina Lee, 2018, [The Transformation of Gender in English-Language Fiction](http://culturalanalytics.org/2018/02/the-transformation-of-gender-in-english-language-fiction/), *Journal of Cultural Analytics*, February 13.
+- Laura Mandell, 2019, [Gender and Cultural Analytics: Finding or Making Stereotypes?](https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/5d9c1b63-7b60-42dd-8cda-bde837f638f4#ch01), Chapter 1, *Debates in the Digital Humanities*.
+- Seth Long and James Baker, 2019, [The Elusive Digital/Critical Synthesis](https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/72423b53-060d-4927-aa0b-36c90b03152c#ch17), Chapter 17, *Debates in the Digital Humanities*.
+
+#### Notebook: Document classification
+
+$~$
+
+## Week 7: February 20
+### Topic modeling
+#### Read: 
+- Megan R. Brett, 2012, [Topic Modeling: A Basic Introduction](http://journalofdigitalhumanities.org/2-1/topic-modeling-a-basic-introduction-by-megan-r-brett/), *Journal of Digital Humanities* 2(1).
+- Kevin M. Quinn, Burt L. Monroe, Michael Colaresi, and Michael H. Crespin, 2010, [How to Analyze Political Attention with Minimal Assumptions and Costs](https://doi.org/10.1111/j.1540-5907.2009.00427.x), *American Journal of Political Science* 54: 209-228.
+- Andrew Goldstone and Ted Underwood, 2014, [The Quiet Transformations of Literary Studies: What Thirteen Thousand Scholars Could Tell Us](https://muse.jhu.edu/article/558875), *New Literary History* 45: 359-384.
+- Lisa Marie Rhody, 2015, [The Story of Stopwords: Topic Modelin an Ekphrastic Tradition](http://www.lisarhody.com/the-story-of-stopwords/), *lisarhody.com*, May 6.
+- Jeffrey M. Binder, 2016, [Alien Reading: Text Mining, Language Standardization, and the Humanities](https://dhdebates.gc.cuny.edu/read/untitled/section/4b276a04-c110-4cba-b93d-4ded8fcfafc9#ch18), Chapter 18 in *Debates in the Digital Humanities*.
+- Laura K. Nelson, 2017, [Computational Grounded Theory: A Methodological Framework](https://journals.sagepub.com/doi/full/10.1177/0049124117729703), *Sociological Methods and Research*, 2017.
+
+#### Activity: Topic modeling, part 1
+
+$~$
+
+## Week 8: Feburary 27
+### Writing and visualizing
+#### Read:
+- Lincoln Mullen, 2019, [A Braided Narrative for Digital History](https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/e5496dc6-dcc1-42e7-8609-9377d05812c5#ch31), Chapter 31 in *Debates in the Digital Humanities*.
+- Kellen and Lincoln Mullen, [The Spine of American Law: Digital Text Analysis and U.S. Legal Pracice](https://doi.org/10.1093/ahr/123.1.132), *The American Historical Review* 123: 132-164.
+- Ryan Cordell, 2015, [Reprinting, Circulation, and the Network author in Antebellum Newspapers](https://muse.jhu.edu/article/590710), *American Literary History* 27(3).
+- David A. Smith, Ryan Cordell, and Abby Mullen, 2015, [Computational Methods for Uncovering Reprinted Texts in Antebellum Newspapers](https://muse.jhu.edu/article/687864), *American Literary History* 27(3).
+- Johanna Drucker, 2016, Graphical Approaches to the Digital Humanities, pp. 290-302 in [A New Companion to Digital Humanities](https://ebookcentral.proquest.com/lib/ucdavis/detail.action?docID=4093339).
+- Stefan Sinclair and Geoffrey Rockwell, 2016, Text Analysis and Visualization: Making Meaning Count, pp. 330-349 in [A New Companion to Digital Humanities](https://ebookcentral.proquest.com/lib/ucdavis/detail.action?docID=4093339).
+
+#### Notebook: Topic modeling, part 2
+
+$~$
+
+## Week 9: March 5
+### No class - work on your projects
+
+$~$
+
+## Week 10: March 12
+### Project presentations
+
+$~$
+
+## Final project due 3/16, 5pm
