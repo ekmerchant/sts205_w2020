@@ -20,7 +20,7 @@ $~$
 
 ### Notebook: Introduction to text manipulation in R
 - Install [R](https://r-project.org) and [RStudio](https://www.rstudio.com) on your machine. You may find [this video](https://www.youtube.com/watch?v=EmZqlcKkJMM) helpful.
-- If you do not have previous experience with R. I recommend that you work through the following [videos](https://www.youtube.com/channel/UCeOVpKuuxX5sdOmGd7P9zzw/videos). These will walk you through sections 2.2 - 2.6 of [Humanities Data in R](https://link.springer.com/book/10.1007%2F978-3-319-20702-5), showing you how to work with R in the command line ([Part 1](https://youtu.be/e2fKTpqsi48)), RStudio console ([Part 2a](https://youtu.be/eMdD9FW1tos)), R scripts (Parts [2b](https://youtu.be/E149gT17nGk) and [3](https://youtu.be/5jrCpa2lRmo)), and R Markdown notebooks (Parts [4a](https://youtu.be/6fFO3za5mHQ), [4b](https://youtu.be/lI7v7iWgcwk), and [4c](https://youtu.be/Ej3wVsp1OqM)).
+- If you do not have previous experience with R, I recommend that you work through the following [videos](https://www.youtube.com/channel/UCeOVpKuuxX5sdOmGd7P9zzw/videos). These will walk you through sections 2.2 - 2.6 of [Humanities Data in R](https://link.springer.com/book/10.1007%2F978-3-319-20702-5), showing you how to work with R in the command line ([Part 1](https://youtu.be/e2fKTpqsi48)), RStudio console ([Part 2a](https://youtu.be/eMdD9FW1tos)), R scripts (Parts [2b](https://youtu.be/E149gT17nGk) and [3](https://youtu.be/5jrCpa2lRmo)), and R Markdown notebooks (Parts [4a](https://youtu.be/6fFO3za5mHQ), [4b](https://youtu.be/lI7v7iWgcwk), and [4c](https://youtu.be/Ej3wVsp1OqM)).
 
 $~$
 
