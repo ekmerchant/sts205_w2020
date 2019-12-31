@@ -1,13 +1,13 @@
 ---
-title: "STS 205: Algorithmic Reading"
+title: 'STS 205: Algorithmic Reading'
 author: "Professor Emily Klancher Merchant"
 date: "UC Davis, Winter 2020"
-output: 
+output:
   html_document:
-    toc: true    
-    toc_depth: 3
-    toc_float: true
     theme: paper
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
 ---
 ### Overview
 As more texts become available digitally, computational textual analysis is becoming more common in the humanities and social sciences. While quantitative social scientists have readily added algorithmic reading methods to their computational repertoire, scholars in the humanities and interpretive social sciences have been more cautious. We now have many examples of algorithmic reading being used for empirical research by quantitative social scientists or by literary scholars who model their endeavors on the quantitative social sciences. We have also seen an outpouring of critical and skeptical takes on algorithmic reading from scholars in the humanities and interpretive social sciences. This course brings together the "yacking" of the humanities and the "hacking" of the social sciences. It is driven by the premise that effectively *using* computational tools to analyze texts requires critical engagement with those tools and that effectively *critiquing* those tools requires getting one's hands dirty by working with them. It therefore takes a hands-on approach grounded in the field of science and technology studies (STS) to critically exploring these tools through active use of them. Using the R programming language, we will explore a variety of methods for analyzing and visualizing texts. We will consider how these modes of analysis can help us pose and explore valuable research question, and we will critically interrogate these approaches and the results they produce. No prior experience necessary.
@@ -15,10 +15,10 @@ As more texts become available digitally, computational textual analysis is beco
 ### Meetings
 We will meet **Thursdays from 9 to 11:50am** in the STS conference room (SSH 1246). Attendance is mandatory. In general, the first half of the class will be devoted to critical discussions of readings. The second half will be used for hands-on practice in programming and text analysis and visualization. **Please bring a laptop to each class session.** It is also fine to bring your breakfast to class and eat it during discussion.
 
-Both parts of each meeting will be primarily student-led. **You will sign up to lead one reading discussion and to teach one R notebook.** I recommend that you schedule these for different days. Ideally we will have two students leading each discussion and teaching each notebook. All readings should be completed prior class on the day listed in the schedule. You will be reading approximately the equivalent of one book each week. Discussion leaders should prepare questions that encourage students to make connections across readings and to other texts we have discussed in this class. Students signed up to teach a given week's notebook should familiarize themselves with the notebook and all of the functions it uses before class. I have prepared videos that will help you do that.
+Both parts of each meeting will be primarily student-led. **You will sign up to lead one reading discussion and to teach one R notebook.** I recommend that you schedule these for different days. Ideally we will have two students leading each discussion and teaching each notebook. All readings should be completed prior to class on the day listed in the schedule. You will be reading approximately the equivalent of one book each week. Discussion leaders should prepare questions that encourage students to make connections across readings and to other texts we have discussed in this class. Students signed up to teach a given week's notebook should familiarize themselves with the notebook and all of the functions it uses before class. I have prepared videos that will help you do that.
 
 ### Final Project
-The purpose of this class is to give you the background and skills you will need to advance your career as a scholar. For that reason, you will design your own final project in the way that will best suit your needs at this moment. It must engage with computational methods of text analysis, but it need not actually employ such methods. If you already have a project and data, you might choose to write a conference paper analyzing your data to answer a research question. If you are just beginning to formulate a project, you might choose to write a grant proposal for a project to complete in the future. If you choose not to use computational methods, you might write a critical review of scholarship that does use such methods in a given area. **You will submit one-page (maximum) progress reports on your project by 5pm on 1/17, 1/31, 2/14, and 2/28. You will present your project in class on 3/12 and submit the final written version by 5pm on 3/16.**
+The purpose of this class is to give you the background and skills you will need to advance your career as a scholar. For that reason, you will design your own final project in the way that will best suit your needs at this moment. It must engage with computational methods of text analysis, but it need not actually employ such methods. If you already have a project and data, you might choose to write a conference paper analyzing your data to answer a research question. If you are just beginning to formulate a project, you might choose to write a grant proposal for a project to complete in the future. If you would like to explore a variety of computational methods, you might choose to use the approaches we cover in class to do an exploratory analysis of a corpus of interest to you. If you choose not to use computational methods, you might write a critical review of scholarship that does use such methods in a given area. This list is meant to be suggestive, not exhaustive. **You will submit one-page (maximum) progress reports on your project by 5pm on 1/17, 1/31, 2/14, and 2/28. You will present your project in class on 3/12 and submit the final written version by 5pm on 3/16.**
 
 ### Grading
 Your grade will be calculated as follows:  

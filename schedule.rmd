@@ -76,7 +76,7 @@ $~$
 ### Digitizing gender
 #### Read:
 - Ted Underwood and David Bamman, 2016, [The Instability of Gender](https://tedunderwood.com/2016/01/09/the-instability-of-gender/), *The Stone and the Shell*, January 9.
-- Matthew Jockers and Gabi Kirilloff, 2016, [Understanding Gender and Character Agency in the 19th Century Novel](http://culturalanalytics.org/2016/12/understanding-gender-and-character-agency-in-the-19th-century-novel/), *Journal of Cultural Analytics*, December 1.  
+- Matthew Jockers and Gabi Kirilloff, 2016, [Understanding Gender and Character Agency in the 19th Century Novel](http://culturalanalytics.org/2016/12/understanding-gender-and-character-agency-in-the-19th-century-novel/), *Journal of Cultural Analytics*, December 1.
 - Ted Underwood, David Bamman, and Sabrina Lee, 2018, [The Transformation of Gender in English-Language Fiction](http://culturalanalytics.org/2018/02/the-transformation-of-gender-in-english-language-fiction/), *Journal of Cultural Analytics*, February 13.
 - Laura Mandell, 2019, [Gender and Cultural Analytics: Finding or Making Stereotypes?](https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/5d9c1b63-7b60-42dd-8cda-bde837f638f4#ch01), Chapter 1, *Debates in the Digital Humanities*.
 - Seth Long and James Baker, 2019, [The Elusive Digital/Critical Synthesis](https://dhdebates.gc.cuny.edu/read/untitled-f2acf72c-a469-49d8-be35-67f9ac1e3a60/section/72423b53-060d-4927-aa0b-36c90b03152c#ch17), Chapter 17, *Debates in the Digital Humanities*.
